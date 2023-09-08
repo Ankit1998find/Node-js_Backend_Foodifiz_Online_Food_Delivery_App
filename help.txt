@@ -1,0 +1,3 @@
+npm i axios bcrypt dotenv express jsonwebtoken lodash mongoose otp-generator //some package
+
+ npm install nodemon --save-dev
