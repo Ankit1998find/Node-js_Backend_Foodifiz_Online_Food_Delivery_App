@@ -5,9 +5,9 @@ const { Schema } = mongoose;
 
 //schema (This indicate the configuration of Product Collection )
 const productSchema = new Schema({
-  kitchenId:{type:String,required:true,unique:true},
+  kitchenId:{type:String,required:true},
   kitchenName:{type:String,required:true},
-  foodHeading:{type:String, required:true,unique:true},
+  foodHeading:{type:String, required:true},
   foodDescription:String ,
   price:{type:Number,  min:[0 ,'wrong Price'],required:true},
   thumbnail:{type:String, required:true} ,

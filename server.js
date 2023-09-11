@@ -1,16 +1,10 @@
-const { default: mongoose } = require("mongoose");
+// const { default: mongoose } = require("mongoose");
+const mongoose=require("mongoose");
 require("dotenv/config");
 const express = require("express");
-
-const http = require('http');
-const socketIo = require('socket.io');
-
 const app = express();
 
-const server = http.createServer(app);
 
-
-const io = socketIo(server);
 
 
 
@@ -53,7 +47,3 @@ app.listen(port, () => {
 });
 
 
-io.on('connection', (socket) => {
-    console.log('Socket connected');
-    // Add real-time logic here
-  });
