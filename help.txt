@@ -1,3 +1,5 @@
 npm i axios bcrypt dotenv express jsonwebtoken lodash mongoose otp-generator //some package
 
  npm install nodemon --save-dev
+
+mongodb+srv://ankitanand1998find:foodifiz1234@cluster0.v3dk9nf.mongodb.net/ecommerceDatabase?retryWrites=true&w=majority
